@@ -1,0 +1,8 @@
+<phpunit bootstrap="vendor/autoload.php"
+         colors="true">
+    <testsuites>
+        <testsuite name="API Test Suite">
+            <directory>tests/BackendTests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
